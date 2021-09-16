@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Web]">
+  <test thread-count="1" name="SauceLabs(failed)">
+    <classes>
+      <class name="com.sauce.SauceDemo.SauceLabs">
+        <methods>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.sauce.SauceDemo.SauceLabs -->
+    </classes>
+  </test> <!-- SauceLabs(failed) -->
+</suite> <!-- Failed suite [Web] -->

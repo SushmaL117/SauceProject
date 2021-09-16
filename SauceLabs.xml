@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="name" parallel="false" thread-count="1">
+
+<parameter name="ProductTitle" value="Sauce Labs Backpack" />
+	    
+<parameter name="ProductName" value="Sauce Labs Bolt T-Shirt" />
+
+<listeners>
+	<listener class-name="com.sauce.extent.ExtentReporter" />
+</listeners> 
+
+<test name="SauceLabs">
+		<classes>
+			<class name="com.sauce.SauceDemo.SauceLabs" />
+		</classes>
+	</test> 
+	
+</suite>
